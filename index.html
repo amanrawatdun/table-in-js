@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Own Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Create Your Own Table</h1>
+    </header>
+
+    <main>
+        <div class="box">
+            <div class="input">
+                <label for="rows">Row no.</label>
+                <input type="number" class="row" id="rows" min="3" max="28" autofocus> 
+                <br>
+                <label for="columns">Column no.</label>
+                <input type="number" class="col" id="columns" min="3" max="15">
+            </div>
+            <div class="btn">
+                <input type="submit" value="Submit" class="btn1">
+            </div>
+            <section class="tb">
+                <div>
+                    <table border="" class="table"></table>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>
